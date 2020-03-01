@@ -1,7 +1,7 @@
 <html>
 
 <head>
-  <title>Snooker Fan Page</title>  
+  <title>Snooker Fan Page</title>
   <link href="it2011.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 
@@ -23,6 +23,47 @@
     </ul>
   </div>
 
+  <div id="butong_net_left" style="overflow:hidden;width:2000px;">
+    <table cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <td id="butong_net_left1" valign="top" align="center">
+          <table cellpadding="2" cellspacing="0" border="0">
+            <tr align="center">
+              <td><img src="images/judd.jpg" width="400px"></td>
+              <td><img src="images/williams.jpg" width="400px"></td>
+              <td><img src="images/john.jpg" width="400px"></td>
+              <td><img src="images/ronnie.jpg" width="400px"></td>
+              <td><img src="images/ronniemasters2016.jpg" width="400px"></td>
+              <td><img src="images/selby.jpg" width="400px"></td>
+              <td><img src="images/ding.jpg" width="400px"></td>
+              <td><img src="images/neil.jpg" width="400px"></td>
+              <td><img src="images/ronniemasters2016.jpg" width="400px"></td>
+            </tr>
+          </table>
+        </td>
+        <td id="butong_net_left2" valign="top"></td>
+      </tr>
+    </table>
+  </div>
+  <script>
+    var speed = 30
+    butong_net_left2.innerHTML = butong_net_left1.innerHTML
+
+    function Marquee3() {
+      if (butong_net_left2.offsetWidth - butong_net_left.scrollLeft <= 0)
+        butong_net_left.scrollLeft -= butong_net_left1.offsetWidth
+      else {
+        butong_net_left.scrollLeft++
+      }
+    }
+    var MyMar3 = setInterval(Marquee3, speed)
+    butong_net_left.οnmοuseοver = function () {
+      clearInterval(MyMar3)
+    }
+    butong_net_left.οnmοuseοut = function () {
+      MyMar3 = setInterval(Marquee3, speed)
+    }
+  </script>
 
 </body>
 
