@@ -50,7 +50,7 @@ ul {list-style: none;}
 #menu a {
 	display: block;
 	float: left;
-	background: url("images/img07.gif") no-repeat left top;
+	background: url("images/img02.gif") no-repeat left top;
 	text-decoration: none;
 	color: #666666;
 }
@@ -59,7 +59,7 @@ ul {list-style: none;}
 	float: left;
 	height: 23px;     
 	padding: 7px 20px 0 20px;
-	background: url("images/img08.gif") no-repeat right top;
+	background: url("images/img03.gif") no-repeat right top;
 }
 #menu li.active {
 	background:  url("images/img04.gif") repeat-x;
@@ -69,11 +69,11 @@ ul {list-style: none;}
 }
 
 #menu li.active a {
-	background: url("images/img06.gif") no-repeat right top;
+	background: url("images/img05.gif") no-repeat right top;
 	color: #C90404;
 }
 #menu li.active b {
-	background: url("images/img05.gif") no-repeat left top;
+	background: url("images/img06.gif") no-repeat left top;
 }
 
 
