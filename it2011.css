@@ -136,22 +136,52 @@ form {
 
 }
 
-table{
-	width: 450px;
+.worldranking {
+	display: inline;
 }
+
 
 #firstcolumn{
 	text-align: center;
+	width: 30%;
 }
 
-#worldranking > th,td {
+#secondcolumn{
+	width: 70%;
+}
+.worldranking > th,td {
 	height: 40px;
 }
 
-#worldranking a{
+.worldranking a{
 	color: white;
 	text-decoration: none;
 }
-#worldranking a:hover{
+.worldranking a:hover{
 	color: red;
+}
+
+.latestnews{
+	display: inline;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.latestnews a{
+	color: white;
+	text-decoration: none;
+}
+.latestnews #continuereading a:hover{
+	color: red;
+}
+.latestnews #firstrow a:hover{
+	color: red;
+}
+.latestnews img{
+	width: 500px;
+}
+
+.latestnews #continuereading a{
+	color: black;
+	text-decoration: none;
 }
