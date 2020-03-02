@@ -1,45 +1,55 @@
-﻿
-* {
+﻿* {
 	margin: 0;
 	padding: 0;
 }
-body, th, td {
+
+body {
 	background: #FFFFFF url("images/img01.gif") repeat-x;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 13px;
 	color: #666666;
 }
 
-h1 {font-size: 197%;}
+h1 {
+	font-size: 197%;
+}
 
-ul {list-style: none;}
+ul {
+	list-style: none;
+}
+
 /* Header */
 #header {
 	width: 960px;
 	height: 92px;
 	margin: 0 auto;
 }
+
 /* Logo */
 #logo h1 {
 	padding-top: 30px;
 	font-size: 34px;
 	font-weight: normal;
 }
+
 #logo a {
 	text-decoration: none;
 	color: #000000;
 }
+
 /* Menu */
 #menu {
 	width: 960px;
-	height: 30px; 
+	height: 30px;
 	margin: 0 auto;
 }
+
 #menu ul {
 	margin: 0;
 	list-style: none;
 	line-height: normal;
 }
+
 #menu li {
 	display: block;
 	float: left;
@@ -47,6 +57,7 @@ ul {list-style: none;}
 	padding: 0;
 	background: white;
 }
+
 #menu a {
 	display: block;
 	float: left;
@@ -54,16 +65,19 @@ ul {list-style: none;}
 	text-decoration: none;
 	color: #666666;
 }
+
 #menu b {
 	display: block;
 	float: left;
-	height: 23px;     
+	height: 23px;
 	padding: 7px 20px 0 20px;
 	background: url("images/img03.gif") no-repeat right top;
 }
+
 #menu li.active {
-	background:  url("images/img04.gif") repeat-x;
+	background: url("images/img04.gif") repeat-x;
 }
+
 #menu a:hover {
 	color: #1777B1;
 }
@@ -72,6 +86,7 @@ ul {list-style: none;}
 	background: url("images/img05.gif") no-repeat right top;
 	color: #C90404;
 }
+
 #menu li.active b {
 	background: url("images/img06.gif") no-repeat left top;
 }
@@ -84,7 +99,59 @@ ul {list-style: none;}
 	border: 2px solid #999999;
 }
 
-form{
+form {
 	display: inline-block;
 	text-align: center;
+}
+
+/* world ranking table */
+#firstrow {
+	background-color: black;
+	color: white;
+	font-size: large;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 50px;
+}
+
+#odd>#firstcolumn {
+	background-color: rgb(230, 0, 0);
+	color: white;
+}
+
+#odd>#secondcolumn {
+	background-color: rgb(192, 192, 192);
+	color: black;
+	padding-left: 10px;
+}
+
+#even>#firstcolumn {
+	background-color: rgb(255, 0, 0);
+	color: white;
+}
+
+#even>#secondcolumn {
+	background-color: rgb(160, 160, 160);
+	color: black;
+	padding-left: 10px;
+
+}
+
+table{
+	width: 450px;
+}
+
+#firstcolumn{
+	text-align: center;
+}
+
+#worldranking > th,td {
+	height: 40px;
+}
+
+#worldranking a{
+	color: white;
+	text-decoration: none;
+}
+#worldranking a:hover{
+	color: red;
 }
