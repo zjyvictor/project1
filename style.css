@@ -40,7 +40,7 @@ nav>ul>li {
 
 nav>ul>li>a {
     text-decoration: none;
-    color: white;
+    color: black;
     width: 140px;
     height: 45px;
     box-sizing: border-box;
@@ -50,14 +50,15 @@ nav>ul>li>a {
     font-size: large;
 }
 
-nav>ul>li:hover {
+nav>ul>li:hover >*{
     background-color: #555555;
     color: white;
 }
 
 nav>ul>li:active,
-.active {
+.active  >*{
     background-color: #555555;
+    color: white;
 }
 
 #menu-button {
@@ -116,6 +117,9 @@ nav>ul>li:active,
     nav>ul>li {
         background-color: black;
         border-top: 1px solid white;
+    }
+
+    nav>ul>li>a {
         color: white;
     }
 
