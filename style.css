@@ -11,12 +11,6 @@ body {
 }
 
 
-
-p {
-    font-size: 18pt;
-}
-
-
 h2{
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
@@ -198,14 +192,23 @@ nav>ul>li:active,
 }
 
 .subtitle{
-    font-size: 150%;
+    font-size: 140%;
     background-color: darkgray;
     border-radius: 5px;
     color: black;
 }
 
+.note{
+    font-family: 'Caveat', cursive;
+    padding-left: 6%;
+    padding-right: 6%;
+    text-indent: 0;
+    font-size: 140%;
+}
+
 p{
     font-size: 125%;
+    text-indent: 4%;
 }
 /* masters.html */
 
