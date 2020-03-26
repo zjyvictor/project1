@@ -16,7 +16,13 @@ p {
     font-size: 18pt;
 }
 
-h2 {
+
+h2{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+}
+
+h1 {
     font-size: 40px;
     font-family: 'Parisienne', cursive;
     padding-left: 10px;
@@ -89,7 +95,7 @@ nav>ul>li:active,
         align-items: center;
     }
 
-    h2 {
+    h1 {
         padding: 10px;
         color: white;
         font-size: 28px;
@@ -173,11 +179,36 @@ nav>ul>li:active,
 
 /* rules.html */
 
+#rules{
+    padding-left: 2%;
+}
+#snookertable{
+    display: flex;
+    flex-direction: row;
+}
 
+.description{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#snookertableexplanation{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.subtitle{
+    font-size: 150%;
+}
+
+p{
+    font-size: 125%;
+}
 /* masters.html */
 
 #pictures img{
-    width: 400px;
+    width: 20%;
+    height: 23%;
 }
 
 
