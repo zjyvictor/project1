@@ -199,6 +199,9 @@ nav>ul>li:active,
 
 .subtitle{
     font-size: 150%;
+    background-color: darkgray;
+    border-radius: 5px;
+    color: black;
 }
 
 p{
