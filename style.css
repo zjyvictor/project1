@@ -7,7 +7,8 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -145,12 +146,6 @@ nav>ul>li:active,
 }
 
 
-#whole {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-}
 
 #excludelogo {
     flex-direction: column;
@@ -161,7 +156,6 @@ nav>ul>li:active,
 #logo {
     background-color: #555555;
     width: 20%;
-    height: 100%;
 }
 
 #logo img {
@@ -196,15 +190,24 @@ nav>ul>li:active,
     background-color: darkgray;
     border-radius: 5px;
     color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#note{
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 .note{
+    padding-left: 2%;
+    padding-right: 2%;
     font-family: 'Caveat', cursive;
-    padding-left: 6%;
-    padding-right: 6%;
     text-indent: 0;
     font-size: 140%;
+    background-color: khaki;
+    border-radius: 5px;
 }
+
 
 p{
     font-size: 125%;
