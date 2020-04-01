@@ -167,6 +167,11 @@ nav>ul>li:active,
 
 /* rules.html */
 
+
+#tableimage1{
+    display: none;
+}
+
 #rules {
     padding-left: 2%;
     padding-right: 2%;
@@ -178,10 +183,6 @@ nav>ul>li:active,
     display: flex;
     flex-direction: row;
 }
-
-/* #tableimage img{
-   
-} */
 
 
 .description {
@@ -261,6 +262,17 @@ p {
     }
     #a{
         padding-top: 2%;
+    }
+    #tableimage{
+        display: none;
+    }
+
+    #tableimage1{
+        display: block;
+    }
+    
+    #tableimage1 img{
+        width: 100%;
     }
 }
 
