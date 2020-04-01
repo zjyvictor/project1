@@ -183,15 +183,6 @@ nav>ul>li:active,
    
 } */
 
-#a,
-#b,
-#c,
-#d,
-#e,
-#f,
-#g {
-    padding-right: 2%;
-}
 
 .description {
     padding-top: 1%;
@@ -263,6 +254,15 @@ p {
     display: none;
 }
 
+
+@media(max-width: 840px){
+    #snookertable{
+        flex-direction: column;
+    }
+    #a{
+        padding-top: 2%;
+    }
+}
 
 /* d,e,f,g display on the bottom */
 @media(max-width: 926px){   
