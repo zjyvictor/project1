@@ -163,13 +163,12 @@ nav>ul>li:active,
 /* index.html */
 .keywords{
     background-color: rgb(108, 108, 255);
-    display: inline-block;
     border-radius: 5px;
     box-sizing: border-box;
-    width: 310px;
     padding: 4px 5px; 
     margin-bottom: 4px;
 }
+
 
 h3{
     font-family: sans-serif;
@@ -207,6 +206,41 @@ h3{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.eventandimg{
+    display: flex
+}
+
+.keywordsandtext{
+    display: flex;
+    flex-direction: column;
+}
+
+.eventimage {
+    width: 200%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.eventimage img{
+    max-width: 100%;
+}
+
+.imagebottomtext {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+#worldchampionshipimage{
+    margin-left: 15px;
+}
+
+#ukchampionshipimage{
+    margin-right: 15px;
+}
+
+#mastersimage{
+    margin-left: 15px;
+}
 
 /* rules.html */
 
