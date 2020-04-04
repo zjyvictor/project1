@@ -208,9 +208,16 @@ h3{
     }
 
     #worldchampionshipimage{
-        margin-left: none;
-        margin-top: 10px;
-    }   
+        margin: 10px auto 0 auto !important;
+    }
+    
+    #ukchampionshipimage{
+        margin: 10px auto 0 auto !important;
+    }
+
+    #mastersimage{
+        margin: 10px auto 0 auto !important;
+    }
 }
 
 
