@@ -193,6 +193,39 @@ h3{
         padding-top: 60px;
     }
 }
+
+@media(max-width: 933px){
+    .eventandimg{
+        flex-direction: column;
+    }
+
+    #ukchampionship{
+        flex-direction: column-reverse;
+    }
+
+    .eventimage{
+        width: 83%;
+    }
+
+    #worldchampionshipimage{
+        margin-left: none;
+        margin-top: 10px;
+    }   
+}
+
+
+@media(min-width: 934px){
+    .eventimage{
+        width: 280%;
+    }
+}
+
+@media(min-width: 1563px){
+    .eventimage{
+        width: 100%;
+    }
+}
+
 .center img{
     width: 100%;
 }
@@ -216,7 +249,6 @@ h3{
 }
 
 .eventimage {
-    width: 200%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
