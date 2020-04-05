@@ -490,6 +490,80 @@ p {
 
 /* masters.html */
 
+#playerspictures img{
+    height: auto;
+}
+
+.redirect{
+    height: 10px;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.nickname{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+.stylishnamefont{
+    font-family: 'Lobster Two', cursive;
+    font-size: 25px;
+}
+
+#players {
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.oddplayer{
+    display: flex;
+    flex-direction: row;
+}
+
+.evenplayer{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.nameandtext{
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    background-color: rgb(226, 73, 47);
+    border-radius: 5px;
+    padding: 4px 5px; 
+    margin-bottom: 10px;
+}
+
+.rightphotoandbottomtext{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.leftphotoandbottomtext{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+}
+
+.photo img{
+    height: 400px;
+}
+
+.bottomtext{
+    text-align: center;
+    padding: 5px;
+}
+
 
 /* videos.html */
 
