@@ -88,6 +88,8 @@ nav>ul>li:active,
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+
+        z-index: 1;
     }
 
     h1 {
@@ -490,8 +492,38 @@ p {
 
 /* masters.html */
 
+@media(max-width: 795px){
+    .oddplayer{
+        flex-direction: column !important;
+    }
+
+    .evenplayer{
+        flex-direction: column !important;
+    }
+
+    .rightphotoandbottomtext{
+        margin: 10px auto 10px auto !important;
+    }
+}
+
+
+@media(max-width:600px){
+    #playerspictures{
+        margin-top: 60px;
+    }
+
+    #playerspictures marquee{
+        height: 250px;
+    }
+
+    #playerspictures img{
+        height: 250px !important;
+    }
+}
+
+
 #playerspictures img{
-    height: auto;
+    height: 300px;
 }
 
 .redirect{
