@@ -601,6 +601,39 @@ h4{
     background-color: rgb(200, 130, 66);
 }
 
+#juddtext{
+    background-color: rgb(110, 206, 178);
+}
+
+#williamstext{
+    background-color: rgb(231, 147, 183);
+}
+
+#johntext{
+    background-color: rgb(248, 224, 142);
+}
+
+#ronnietext{
+    background-color: rgb(199, 178, 222);
+}
+
+#selbytext{
+    background-color: rgb(146, 193, 233);
+}
+
+#dingtext{
+    background-color: rgb(225, 184, 127);
+}
+
+.playertext{
+    height: 100%;
+    border-radius: 5px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
 .rightphotoandbottomtext{
     display: flex;
     flex-direction: column;
