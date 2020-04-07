@@ -35,7 +35,6 @@ nav>ul {
 
 nav>ul>li {
     font-family: sans-serif;
-
 }
 
 
@@ -69,7 +68,16 @@ nav>ul>li:active,
     align-items: center;
     justify-content: center;
 }
+@media(max-width: 935px){
+    nav>ul>li>a{
+        max-width: 100px;
+        box-sizing: border-box;
+    }
 
+    nav>ul {
+        justify-content: space-between;
+    }
+}
 
 @media(max-width: 600px) {
     header {
@@ -363,7 +371,7 @@ h3{
 
 p {
     font-size: 125%;
-    text-indent: 4%;
+    text-indent: 25px;
 }
 
 #newd {
