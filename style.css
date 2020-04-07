@@ -170,7 +170,7 @@ nav>ul>li:active,
     height: inherit;
 }
 
-/* index.html */
+/* intro.html */
 .keywords{
     background-color: rgb(108, 108, 255);
     border-radius: 5px;
@@ -199,7 +199,7 @@ h3{
 }
 
 @media(max-width: 600px) {
-    .center{
+    #oldsnooker{
         padding-top: 60px;
     }
 }
@@ -243,7 +243,7 @@ h3{
     }
 }
 
-.center img{
+#oldsnooker img{
     width: 100%;
 }
 
@@ -343,12 +343,9 @@ h3{
     font-family: 'Times New Roman', Times, serif;
 }
 
-#note {
-    padding-left: 6%;
-    padding-right: 6%;
-}
-
 .note {
+    margin-left: 6%;
+    margin-right: 6%;
     padding-left: 2%;
     padding-right: 2%;
     font-family: 'Caveat', cursive;
@@ -520,8 +517,8 @@ p {
 
 
 @media(max-width:600px){
-    #playerspictures{
-        margin-top: 60px;
+    #masters{
+        padding-top: 60px;
     }
 
     #playerspictures marquee{
