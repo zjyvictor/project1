@@ -1,0 +1,175 @@
+
+
+@media(max-width: 600px) {
+    #rules{
+        padding-top: 60px;
+    }
+}
+
+#tableimage1{
+    display: none;
+}
+
+#rules {
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+#snookertable {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#snookertableexplanation {
+    padding-left: 1%;
+}
+
+.subtitle {
+    font-size: 140%;
+    background-color: darkgray;
+    border-radius: 5px;
+    color: black;
+    text-indent: 1%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+#basicsnookerrules {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#basicsnookerrules a {
+    text-decoration: none;
+    color: rgb(199, 0, 0);
+}
+
+
+#newd {
+    display: none;
+}
+
+#newe {
+    display: none;
+}
+
+#newf {
+    display: none;
+}
+
+#newg {
+    display: none;
+}
+
+
+@media(max-width: 887px){
+    #snookertable{
+        flex-direction: column;
+    }
+    #a{
+        padding-top: 2%;
+    }
+    #tableimage{
+        display: none;
+    }
+
+    #tableimage1{
+        display: block;
+    }
+    
+    #tableimage1 img{
+        width: 100%;
+    }
+
+    #snookertableexplanation {
+        padding-left: 0;
+    }
+    
+}
+
+/* d,e,f,g display on the bottom */
+@media(max-width: 926px){   
+    #d {
+        display: none;
+    }
+
+    #e {
+        display: none;
+    }
+
+    #f {
+        display: none;
+    }
+
+    #g {
+        display: none;
+    }
+    
+    #newd, #newe, #newf, #newg{
+        display: block;
+    }
+
+    #newd{
+        padding-top: 2%;
+    }
+} 
+
+
+/* e,f,g display on the bottom */
+@media(max-width: 1019px){
+    #e {
+        display: none;
+    }
+
+    #f {
+        display: none;
+    }
+
+    #g {
+        display: none;
+    }
+
+    #newe, #newf, #newg{
+        display: block;
+    }
+
+    #newe{
+        padding-top: 2%;
+    }
+} 
+
+/* f,g display on the bottom */
+@media(max-width: 1290px){
+    #f {
+        display: none;
+    }
+
+    #g {
+        display: none;
+    }
+
+    #newf, #newg{
+        display: block;
+    }
+
+    #newf{
+        padding-top: 2%;
+    }
+}
+
+/* g display on the bottom */
+@media(max-width: 1378px){
+    #g {
+        display: none;
+    }
+    
+    #newg{
+        display: block;
+        padding-top: 2%;
+    }
+}

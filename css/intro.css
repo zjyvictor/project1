@@ -1,0 +1,124 @@
+/* intro.html */
+.keywords{
+    background-color: rgb(108, 108, 255);
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 4px 5px; 
+    margin-bottom: 4px;
+}
+
+
+h3{
+    font-family: sans-serif;
+    color:black;
+}
+
+#intro {
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#birefhistory a {
+    text-decoration: none;
+    color: rgb(199, 0, 0);
+}
+
+@media(max-width: 600px) {
+    #oldsnooker{
+        padding-top: 60px;
+    }
+}
+
+@media(max-width: 933px){
+    .eventandimg{
+        flex-direction: column;
+    }
+
+    #ukchampionship{
+        flex-direction: column-reverse;
+    }
+
+    .eventimage{
+        width: 83%;
+    }
+
+    #worldchampionshipimage{
+        margin: 10px auto 0 auto !important;
+    }
+    
+    #ukchampionshipimage{
+        margin: 10px auto 0 auto !important;
+    }
+
+    #mastersimage{
+        margin: 10px auto 0 auto !important;
+    }
+}
+
+
+@media(min-width: 934px){
+    .eventimage{
+        width: 280%;
+    }
+}
+
+@media(min-width: 1563px){
+    .eventimage{
+        width: 100%;
+    }
+}
+
+#oldsnooker img{
+    width: 100%;
+}
+
+#triplecrown{
+    display: block;
+}
+
+#triplecrownimage img{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.eventandimg{
+    display: flex
+}
+
+.keywordsandtext{
+    display: flex;
+    flex-direction: column;
+}
+
+.eventimage {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.eventimage img{
+    max-width: 100%;
+}
+
+.imagebottomtext {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+#worldchampionshipimage{
+    margin-left: 15px;
+}
+
+#ukchampionshipimage{
+    margin-right: 15px;
+}
+
+#mastersimage{
+    margin-left: 15px;
+}
+
+#triplecrownevents img{
+    border-radius: 5px;
+}
