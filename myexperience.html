@@ -39,33 +39,30 @@
 
         <div id="myexperience">
             <div class="blank"></div>
-            <div>
-                <p class="note">To be honest, I have never played snooker.
-                    The reason is that snooker don't have market in America
-                    while billiards is so much popular than snooker. I cannot
-                    find any billiards club that has snooker table.
-                </p><br>
-            </div>
+            <p class="note">To be honest, I have never played snooker.
+                The reason is that snooker don't have market in America
+                while billiards is so much popular than snooker. I cannot
+                find any billiards club that has snooker table.
+            </p><br>
 
             <div id="realsnookertable">
-                <img src="./images/snookertable3.jpg" alt="barfisch / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)">
+                <img src="./images/snookertable3.jpg"
+                    alt="barfisch / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)">
             </div>
-            <div>
-                <p class="note">
-                    Compare to billiards, snooker is more elegant and reflects 
-                    nobility of English people. I didn't know billiards and snooker
-                    at all until I came to UW-Eau Claire. There are 6 pool tables 
-                    in Hilltop Center. As a BluGold, I have free access to these 
-                    facilities. Then I started to play without any knowledge of billiards
-                    in the beginning of 2019. I fell in love with this sport immediatelly 
-                    and kept practicing almost every day. Then I knew snooker. 
-                    After watching professional snooker tournaments and all kinds of 
-                    excellent shots, I was amazed by their skills and enjoyed the visual feast.
-                    I also lerned a lot from them. I can play top spin and back spin now.
-                    I record several video clips to show my work. Although snooker table and 
-                    billiards are different, potting skills are the same.
-                </p><br>
-            </div>
+            <p class="note">
+                Compare to billiards, snooker is more elegant and reflects
+                nobility of English people. I didn't know billiards and snooker
+                at all until I came to UW-Eau Claire. There are 6 pool tables
+                in Hilltop Center. As a BluGold, I have free access to these
+                facilities. Then I started to play without any knowledge of billiards
+                in the beginning of 2019. I fell in love with this sport immediatelly
+                and kept practicing almost every day. Then I knew snooker.
+                After watching professional snooker tournaments and all kinds of
+                excellent shots, I was amazed by their skills and enjoyed the visual feast.
+                I also lerned a lot from them. I can play top spin and back spin now.
+                I record several video clips to show my work. Although snooker table and
+                billiards are different, potting skills are the same.
+            </p><br>
 
             <div id="pooltable">
                 <img src="./images/pooltable.jpg" alt="pool table">
@@ -77,9 +74,11 @@
 
 
             <div id="topspin">
-                <div class="point">                    
+                <div class="point">
                     <img src="./images/topspin.jpg" alt="top spin: hit on the top">
-                    <div class="tip"><h4>Top Spin: Hit on the top </h4></div>
+                    <div class="tip">
+                        <h4>Top Spin: Hit on the top </h4>
+                    </div>
                 </div>
                 <video width="70%" controls>
                     <source src="./images/topspin.mp4" type="video/mp4">
@@ -87,9 +86,11 @@
             </div>
 
             <div id="backspin">
-                <div class="point">                    
+                <div class="point">
                     <img src="./images/backspin.jpg" alt="back spin: hit on the bottom">
-                    <div class="tip"><h4>Back Spin: Hit on the bottom</h4></div>
+                    <div class="tip">
+                        <h4>Back Spin: Hit on the bottom</h4>
+                    </div>
                 </div>
                 <video width="70%" controls>
                     <source src="./images/backspin.mp4" type="video/mp4">
@@ -114,24 +115,10 @@
 
 
     <div id="logo">
-        <a href="https://wst.tv/" target="_blank"> <img src="images/world_snooker_tour_logo_before_after.png"></a>
+        <a href="https://wst.tv/" target="_blank"> <img src="images/world_snooker_tour_logo_before_after.png" alt="world snooker tour logo before and after"></a>
     </div>
 
-    <script>
-        const menuButton = document.getElementById('menu-button');
-        const navigation = document.getElementById('navigation');
-
-        menuButton.addEventListener('click', e => {
-            navigation.classList.toggle('open');
-            menuButton.classList.toggle('active');
-            e.stopPropagation();
-        })
-
-        document.addEventListener('click', () => {
-            navigation.classList.remove('open');
-            menuButton.classList.remove('active');
-        })
-    </script>
+    <script src="./js/smallscreen.js"></script>
 </body>
 
 </html>

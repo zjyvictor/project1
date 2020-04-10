@@ -213,7 +213,7 @@
 
 
     <div id="logo">
-        <a href="https://wst.tv/" target="_blank"> <img src="images/world_snooker_tour_logo_before_after.png"></a>
+        <a href="https://wst.tv/" target="_blank"> <img src="images/world_snooker_tour_logo_before_after.png" alt="world snooker tour logo before and after"></a>
     </div>
 
 
@@ -223,21 +223,8 @@
 
 
 
-    <script>
-        const menuButton = document.getElementById('menu-button');
-        const navigation = document.getElementById('navigation');
+    <script src="./js/smallscreen.js"></script>
 
-        menuButton.addEventListener('click', e => {
-            navigation.classList.toggle('open');
-            menuButton.classList.toggle('active');
-            e.stopPropagation();
-        })
-
-        document.addEventListener('click', () => {
-            navigation.classList.remove('open');
-            menuButton.classList.remove('active');
-        })
-    </script>
 </body>
 
 </html>

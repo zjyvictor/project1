@@ -195,10 +195,10 @@
 
 
     <div id="logo">
-        <a href="https://wst.tv/" target="_blank"> <img src="images/world_snooker_tour_logo_before_after.png"></a>
-        <a class="twitter-timeline" data-height="600" data-theme="dark" href="https://twitter.com/WeAreWST?ref_src=twsrc%5Etfw">Tweets by WeAreWST</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a href="https://wst.tv/" target="_blank"> <img src="images/world_snooker_tour_logo_before_after.png" alt="world snooker tour logo before and after"></a>
+        <a class="twitter-timeline" data-height="600" data-theme="dark" href="https://twitter.com/WeAreWST?ref_src=twsrc%5Etfw">Tweets by WeAreWST</a> <script async src="https://platform.twitter.com/widgets.js"></script>
         <div class="blank"></div>
-        <a class="twitter-timeline" data-height="600" data-theme="dark" href="https://twitter.com/WPBSAofficial?ref_src=twsrc%5Etfw">Tweets by WPBSAofficial</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a class="twitter-timeline" data-height="600" data-theme="dark" href="https://twitter.com/WPBSAofficial?ref_src=twsrc%5Etfw">Tweets by WPBSAofficial</a> <script async src="https://platform.twitter.com/widgets.js"></script>
     </div>
 
 
@@ -208,21 +208,8 @@
 
 
 
-    <script>
-        const menuButton = document.getElementById('menu-button');
-        const navigation = document.getElementById('navigation');
+    <script src="./js/smallscreen.js"></script>
 
-        menuButton.addEventListener('click', e => {
-            navigation.classList.toggle('open');
-            menuButton.classList.toggle('active');
-            e.stopPropagation();
-        })
-
-        document.addEventListener('click', () => {
-            navigation.classList.remove('open');
-            menuButton.classList.remove('active');
-        })
-    </script>
 </body>
 
 </html>

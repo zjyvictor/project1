@@ -54,10 +54,7 @@
                     <a href="#selby"> <img src="./images/selby.jpg"
                             alt="DerHexer, Wikimedia Commons, CC-by-sa 4.0 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)"></a>
                     <a href="#ding"> <img src="./images/ding.jpg"
-                            alt="DerHexer, Wikimedia Commons, CC-by-sa 4.0 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)"></a>
-                    <!-- <a href="#neil"><img src="./images/neil.jpg"
-                            alt="DerHexer, Wikimedia Commons, CC-by-sa 4.0 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)"></a> -->
-    
+                            alt="DerHexer, Wikimedia Commons, CC-by-sa 4.0 / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)"></a>    
                 </marquee>
             <div class="blank"></div>
     
@@ -257,25 +254,12 @@
     </div>
 
     <div id="logo">
-        <a href="https://wst.tv/" target="_blank"> <img src="images/world_snooker_tour_logo_before_after.png"></a>
+        <a href="https://wst.tv/" target="_blank"> <img src="images/world_snooker_tour_logo_before_after.png" alt="world snooker tour logo before and after"></a>
     </div>
 
 
-    <script>
-        const menuButton = document.getElementById('menu-button');
-        const navigation = document.getElementById('navigation');
+    <script src="./js/smallscreen.js"></script>
 
-        menuButton.addEventListener('click', e => {
-            navigation.classList.toggle('open');
-            menuButton.classList.toggle('active');
-            e.stopPropagation();
-        })
-
-        document.addEventListener('click', () => {
-            navigation.classList.remove('open');
-            menuButton.classList.remove('active');
-        })
-    </script>
 </body>
 
 </html>
