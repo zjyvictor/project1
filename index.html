@@ -19,6 +19,8 @@
     html,
     body {
         height: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     body {
@@ -31,7 +33,7 @@
 
     .wrapper {
         min-height: 100%;
-        font-size: 20px;
+        position: relative;
     }
 
     .transparenttext {
@@ -105,7 +107,6 @@
     #overview {
         display: flex;
         flex-direction: row;
-        padding-top: ;
     }
 
     img {
@@ -114,14 +115,14 @@
         object-fit: cover;
     }
 
-    .videowrapper{
+    .videowrapper {
         position: relative;
         padding-bottom: 56.25%;
         padding-top: 25px;
         height: 0px;
     }
 
-    .videowrapper iframe{
+    .videowrapper iframe {
         position: absolute;
         left: 0;
         top: 0;
@@ -130,11 +131,11 @@
         height: 100%;
         width: 100%;
     }
-
 </style>
 
 <body>
-    <div class="wrapper">
+
+    <div id="wrapper">
         <h1>The Charm of Snooker</h1>
         <div class="transparenttext">
             <p>
@@ -145,7 +146,6 @@
                 about this sport.
             </p>
         </div>
-
 
         <div class="blank"></div>
 
@@ -158,13 +158,15 @@
 
         <div class="blank"></div>
 
-
         <div class="videowrapper">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/BOUbRhBMFeM?start=6" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/BOUbRhBMFeM?start=6" frameborder="0" allowfullscreen></iframe>
         </div>
-        
-
+        <div class="blank"></div>
+        <div class="transparenttext">
+            <p>
+                Click the images to explore now!
+            </p>
+        </div>
         <div class="blank"></div>
 
         <div id="overview">
@@ -211,14 +213,17 @@
         </div>
 
 
-
+        <!-- <div id="footer">
+                    &copy; https://jingyangweb.duckdns.org:8443 | Designed by Jingyang Zhang
+                </div> -->
     </div>
+
+
 
     <div class="footer">
 
         <div class="footercontent">
-            <div id="externallinks"></div>
-            <div id="comment"></div>
+
         </div>
 
         <div class="footerbottom">
@@ -226,8 +231,6 @@
         </div>
 
     </div>
-
-
 
     <script>
         const menuButton = document.getElementById('menu-button');
