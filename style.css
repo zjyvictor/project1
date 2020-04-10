@@ -728,3 +728,13 @@ h4{
     padding-bottom: 10px;
     border-radius: 10px;
 }
+
+
+/* index.html */
+
+  @media(max-width: 600px) {
+    #wrapper{
+        padding-top: 60px;
+    }
+}
+

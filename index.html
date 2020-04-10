@@ -11,216 +11,221 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 
+<style>
+    #excludelogo {
+        width: 100%;
+    }
+
+    html,
+    body {
+        height: 100%;
+    }
+
+    body {
+        flex-direction: column;
+        background-image: url('./images/snookerclub.jpg');
+        width: 100%;
+        background-size: cover;
+        color: white;
+    }
+
+    .wrapper {
+        min-height: 100%;
+        font-size: 20px;
+    }
+
+    .transparenttext {
+        background-color: rgba(0, 0, 0, 0.5);
+        margin: auto 2%;
+    }
+
+    /* footer */
+    .footer {
+        color: #d3d3d3;
+        position: relative;
+    }
+
+    .footer .footercontent {
+        height: 350px;
+    }
+
+    .footer .footerbottom {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #d3d3d3;
+        font-size: 20px;
+        height: 50px;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        padding-top: 20px;
+    }
+
+
+
+
+    .container {
+        width: 200px;
+        height: 300px;
+        position: relative;
+        width: 50%;
+    }
+
+    .image {
+        opacity: 1;
+        display: block;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+
+    .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%)
+    }
+
+    .container:hover .image {
+        opacity: 0.3;
+    }
+
+    .container:hover .middle {
+        opacity: 1;
+    }
+
+    .text {
+        color: silver;
+        font-size: 25px;
+    }
+
+    #overview {
+        display: flex;
+        flex-direction: row;
+        padding-top: ;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .videowrapper{
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 25px;
+        height: 0px;
+    }
+
+    .videowrapper iframe{
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+</style>
+
 <body>
-
-    <div id="excludelogo">
-        <header>
-            <h1>The Charm of Snooker</h1>
-
-            <div id="menu-button">
-                <svg viewBox="0 0 100 80" width="30" height="30">
-                    <rect fill="white" width="100" height="15"></rect>
-                    <rect fill="white" y="30" width="100" height="15"></rect>
-                    <rect fill="white" y="60" width="100" height="15"></rect>
-                </svg>
-            </div>
-
-            <nav id="navigation">
-                <ul>
-                    <li class="active"><a href="index.html">Index</a></li>
-                    <li><a href="intro.html">Introduction</a></li>
-                    <li><a href="rules.html">Rules</a></li>
-                    <li><a href="masters.html">Masters</a></li>
-                    <li><a href="myexperience.html">I ❤ Snooker</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <!-- <div class="center">
-            <img src="./images/old.jpg"
-                alt="1968 26 09 CCLC Snooker Championships, Wikimedia Commons, CC-by-sa 2.0 / CC BY-SA (https://creativecommons.org/licenses/by-sa/2.0)">
-            
+    <div class="wrapper">
+        <h1>The Charm of Snooker</h1>
+        <div class="transparenttext">
+            <p>
+                Hello, my name is Jingyang Zhang. I'm an international student from China.
+                Living and studying in UW-Eau Claire not only makes me acquire knowledge from courses,
+                but helps me find another sport that I am really into playing. That is snooker.
+                I'd like to introduce this sport from different aspects. The aim is to help you know more
+                about this sport.
+            </p>
         </div>
 
-        <div id="intro">
 
-            <div class="description">
-                <h2>&bullet;Brief History of Snooker</h2>
-            </div>
+        <div class="blank"></div>
 
-            <div id="note">
-                <p class="note">It has been over 140 years since the sport was invented. Now it is very popular in the
-                    UK, China, Thailand and other countries.
-                    At the 2019 World Championship, the best players on the planet competed for a top prize of <span
-                        style="color: red; font-weight: 600;">£500,000</span>
-                    and the total prize pool was over <span style="color: red; font-weight: 600;">£2 million</span>,
-                    watched by <span style="color: red; font-weight: 600;">half a billion</span> people around the
-                    globe.
-                    It's hard to imagine how Snooker deveploed from nothing.</p><br>
-            </div>
+        <div class="transparenttext">
+            <p>
+                Before you start to explore, take a look at some excellect shots. Hope you can raise interest and
+                appreciate the beauty of snooker.
+            </p>
+        </div>
 
-            <div id="birefhistory">
-                <div class="keywords">
-                    <h3>&nbsp;India, the birthplace</h3>
-                </div>
-                <p>Now most of professional snooker opens or championships take place in the UK. You might think snooker
-                    is orignated from the UK.
-                    Acutually, you are wrong. The game of snooker was invented in 1875 by the British Army in the Indian
-                    town of Jubbulpore.
-                    So, India is the real birthplace of snooker. It is recorded that young lieutenant
-                    Neville Chamberlain was experimenting on the officers’ mess table with the existing game of ‘Black
-                    Pool’ featuring 15 red balls and a black.
-                </p><br>
+        <div class="blank"></div>
 
-                <div class="keywords">
-                    <h3>&nbsp;Snooker, a slang term for rookie</h3>
-                </div>
-                <p>Having thrown on additional coloured balls and heard that rookie cadets at the Royal Military Academy
-                    at Woolwich were called ‘snookers’, Chamberlain observed that all those present were snookers at
-                    this tweaked version of the game, and the name instantly stuck.</p><br>
 
-                <p>Afterwards, the game spread to other Indian colonies and the UK. After decades of development,
-                    it has become one of the most attractive sports games.
-                    Now it is governed by the
-                    <a href="https://www.wpbsa.com/" target="_blank">World Professional Billiards and Snooker
-                        Association </a>
-                    (WPBSA).
-                </p><br>
-            </div>
+        <div class="videowrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BOUbRhBMFeM?start=6" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
 
-            <div id="triplecrownimage">
-                <img src="./images/triplecrowncircled.png" alt="triplecrowncircled">
-            </div>
+        <div class="blank"></div>
 
-            <div class="blank"></div>
+        <div id="overview">
+            <div class="container">
+                <a href="intro.html">
+                    <img src="./images/old.jpg" alt="intro.html navigation" class="image">
 
-            <div id="note">
-                <p class="note">
-                    Look at the picture above, this man is the current World No.1,
-                    <span style="color: rgb(185, 0, 0); font-weight: 600;">Judd Trump</span>.
-                    Have you noticed that on his waistcoats, there is a crown that I circled?
-                    You might think it is a merchant logo just like the bottom.
-                    Actually, it represents an honor.
-                    That means he has won all the three most prestigious tournaments in snooker:
-                    the <span style="color: blueviolet; font-weight: 600;">World Championship</span> ,
-                    the <span style="color: blueviolet; font-weight: 600;">UK Championship</span>,
-                    the <span style="color: blueviolet; font-weight: 600;">Masters</span>.
-                    These three events together make up the
-                    <span style="color: darkorange; font-weight: 600;">Triple Crown Series</span>.
-                </p>
-            </div>
-
-            <div class="description">
-                <h2>&bullet;Triple Crown Series</h2>
-            </div>
-
-            <div id="triplecrownevents">
-                <div class="eventandimg">
-                    <div class="keywordsandtext">
-                        <div class="keywords">
-                            <h3>&nbsp;The World Championship</h3>
-                        </div>
-
-                        <div class="eventtext">
-                            <p>The World Snooker Championship is the leading snooker tournament both in terms of
-                                prestige and
-                                prize money.
-                                It has been played at the Crucible Theatre in Sheffield, England since 1977.
-                                It is the toughest snooker tournament. If you want to win, you have to win 18 out of 35
-                                frames
-                                in the final.
-                                The reigning champion is <span style="color: rgb(185, 0, 0); font-weight: 600;">Judd
-                                    Trump</span>.
-                            </p>
-                        </div>
-
+                    <div class="middle">
+                        <div class="text">Introduction</div>
                     </div>
-                   
-                    <div class="eventimage" id="worldchampionshipimage">
-                        <img src="./images/worldchampionshiptrophy.jpg" alt="World Snooker Championship Trophy">
-                        <div class="imagebottomtext">
-                            <p>World Championship Trophy</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="blank"></div>
-
-                <div class="eventandimg" id="ukchampionship">
-                    <div class="eventimage" id="ukchampionshipimage">
-                        <img src="./images/ukchampionshiptrophy.jpg" alt="UK Championship Trophy">
-                        <div class="imagebottomtext">
-                            <p>UK Championship Trophy</p>
-                        </div>
-                    </div>
-
-                    <div class="keywordsandtext">
-                        <div class="keywords">
-                            <h3>&nbsp;The UK Championship</h3>
-                        </div>
-                        <div class="eventtext">
-                            <p>
-                                UK Championship is the second-biggest ranking tournament, after the World Championship.
-                                It has been staged at the Barbican Center, York, England since 2011. 
-                                It's also very tough to win. 
-                                The winner needs to continuely win from first round to fourth round, 
-                                then quarter-final, semi-final. All these matches are 11 frames and
-                                the winner needs to win 10 out of 19 frames in the final.
-                                Last year the total prize money was over £1 million and the winner received £200,000.
-                                The reigning champion is <span style="color: rgb(185, 0, 0); font-weight: 600;">Ding
-                                    Junhui</span>.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="blank"></div>
-
-                <div class="eventandimg">
-                    <div class="keywordsandtext">
-                        <div class="keywords">
-                            <h3>&nbsp;The Masters</h3>
-                        </div>
-                        <div class="eventtext">
-                            <p>
-                                Unlike the other two ranking event, the Masters is an invitation event.
-                                Only the elite top 16 players are invited to compete for the famous trophy and a top
-                                prize of £250,000. It has been staged at the iconic Alexandra Palace in North London since 2012.
-                                The Masters trophy is named in honor of <span
-                                    style="color: rgb(185, 0, 0); font-weight: 600;">Paul Hunter</span>,
-                                who won three times in four years in the Masters and he died from cancer at the age of
-                                27.
-                                The reigning champion is <span style="color: rgb(185, 0, 0); font-weight: 600;">Stuart
-                                    Bingham</span>.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="eventimage" id="mastersimage">
-                        <img src="./images/masterstrophy.jpg" alt="Masters Trophy (Paul Hunter Trophy)">
-                        <div class="imagebottomtext">
-                            <p>Masters Trophy <br>(Paul Hunter Trophy)</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="blank"></div>
+                </a>
             </div>
 
-        </div> -->
+            <div class="container">
+                <a href="rules.html">
+                    <img src="./images/snookertable1.jpg" alt="rules.html navigation" class="image">
+
+                    <div class="middle">
+                        <div class="text">Rules</div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="container">
+                <a href="masters.html">
+                    <img src="./images/ronnie.jpg" alt="masters.html navigation" class="image">
+
+                    <div class="middle">
+                        <div class="text">Masters</div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="container">
+                <a href="myexperience.html">
+                    <img src="./images/mytraining.png" alt="myexperience.html navigation" class="image">
+
+                    <div class="middle">
+                        <div class="text">I &hearts; Snooker</div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+
 
     </div>
 
+    <div class="footer">
 
+        <div class="footercontent">
+            <div id="externallinks"></div>
+            <div id="comment"></div>
+        </div>
 
-    <!-- <div id="logo">
-        <a href="https://wst.tv/" target="_blank"> <img src="images/world_snooker_tour_logo_before_after.png"></a>
-    </div> -->
+        <div class="footerbottom">
+            &copy; https://jingyangweb.duckdns.org:8443 | Designed by Jingyang Zhang
+        </div>
 
-
-
-
-
+    </div>
 
 
 
