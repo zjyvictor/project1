@@ -1,12 +1,10 @@
-
-
 @media(max-width: 600px) {
-    #rules{
+    #rules {
         padding-top: 60px;
     }
 }
 
-#tableimage1{
+#tableimage1 {
     display: none;
 }
 
@@ -67,33 +65,35 @@
 }
 
 
-@media(max-width: 887px){
-    #snookertable{
+@media(max-width: 887px) {
+    #snookertable {
         flex-direction: column;
     }
-    #a{
+
+    #a {
         padding-top: 2%;
     }
-    #tableimage{
+
+    #tableimage {
         display: none;
     }
 
-    #tableimage1{
+    #tableimage1 {
         display: block;
     }
-    
-    #tableimage1 img{
+
+    #tableimage1 img {
         width: 100%;
     }
 
     #snookertableexplanation {
         padding-left: 0;
     }
-    
+
 }
 
 /* d,e,f,g display on the bottom */
-@media(max-width: 926px){   
+@media(max-width: 926px) {
     #d {
         display: none;
     }
@@ -109,19 +109,22 @@
     #g {
         display: none;
     }
-    
-    #newd, #newe, #newf, #newg{
+
+    #newd,
+    #newe,
+    #newf,
+    #newg {
         display: block;
     }
 
-    #newd{
+    #newd {
         padding-top: 2%;
     }
-} 
+}
 
 
 /* e,f,g display on the bottom */
-@media(max-width: 1019px){
+@media(max-width: 1019px) {
     #e {
         display: none;
     }
@@ -134,17 +137,19 @@
         display: none;
     }
 
-    #newe, #newf, #newg{
+    #newe,
+    #newf,
+    #newg {
         display: block;
     }
 
-    #newe{
+    #newe {
         padding-top: 2%;
     }
-} 
+}
 
 /* f,g display on the bottom */
-@media(max-width: 1290px){
+@media(max-width: 1290px) {
     #f {
         display: none;
     }
@@ -153,22 +158,23 @@
         display: none;
     }
 
-    #newf, #newg{
+    #newf,
+    #newg {
         display: block;
     }
 
-    #newf{
+    #newf {
         padding-top: 2%;
     }
 }
 
 /* g display on the bottom */
-@media(max-width: 1378px){
+@media(max-width: 1378px) {
     #g {
         display: none;
     }
-    
-    #newg{
+
+    #newg {
         display: block;
         padding-top: 2%;
     }

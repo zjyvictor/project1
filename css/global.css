@@ -24,7 +24,7 @@ h1 {
     padding-left: 10px;
 }
 
-h4{
+h4 {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
 }
@@ -74,8 +74,9 @@ nav>ul>li:active,
     align-items: center;
     justify-content: center;
 }
-@media(max-width: 935px){
-    nav>ul>li>a{
+
+@media(max-width: 935px) {
+    nav>ul>li>a {
         max-width: 100px;
         box-sizing: border-box;
     }
@@ -154,7 +155,7 @@ nav>ul>li:active,
     }
 
     #excludelogo {
-        width: 100% !important; 
+        width: 100% !important;
     }
 }
 
@@ -183,7 +184,7 @@ nav>ul>li:active,
     object-fit: cover;
 }
 
-.blank{
+.blank {
     box-sizing: border-box;
     width: 100%;
     height: 20px;
@@ -213,4 +214,3 @@ p {
     font-size: 125%;
     text-indent: 25px;
 }
-
