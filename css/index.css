@@ -1,5 +1,6 @@
-#excludelogo {
-    width: 100%;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 html,
@@ -15,7 +16,23 @@ body {
     color: white;
 }
 
+h1 {
+    font-size: 40px;
+    font-family: 'Parisienne', cursive;
+    padding-left: 10px;
+}
 
+
+p {
+    font-size: 125%;
+    text-indent: 25px;
+}
+
+.blank{
+    box-sizing: border-box;
+    width: 100%;
+    height: 20px;
+}
 
 .transparenttext {
     background-color: rgba(0, 0, 0, 0.5);
@@ -113,8 +130,27 @@ form {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
 }
 
+
+.videowrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0px;
+}
+
+.videowrapper iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
 
 
 .wrapinput {
